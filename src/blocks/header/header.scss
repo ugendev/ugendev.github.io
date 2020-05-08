@@ -1,0 +1,12 @@
+.header {
+    width: 100%;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 75px;
+    }
+}

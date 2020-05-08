@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Merriweather';
+    font-display: swap;
+    src: local('Merriweather Bold'),
+         url('../fonts/Merriweather-Bold.woff2') format('woff2'),
+         url('../fonts/Merriweather-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    font-display: swap;
+    src: local('Merriweather Regular'),
+         url('../fonts/Merriweather-Regular.woff2') format('woff2'),
+         url('../fonts/Merriweather-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Sacramento';
+    font-display: swap;
+    src: local('Sacramento Regular'),
+         url('../fonts/PSacramento-Regular.woff2') format('woff2'),
+         url('../fonts/Sacramento-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Wisdom Script';
+    font-display: swap;
+    src: local('Wisdom Script'),
+         url('../fonts/Wisdom-Script.woff2') format('woff2'),
+         url('../fonts/Wisdom-Script.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}

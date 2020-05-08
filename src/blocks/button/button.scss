@@ -1,0 +1,20 @@
+.button {
+    width: 180px;
+    height: 50px;
+
+    border-radius: 25px;
+    border: none;
+    background-color: #fc5f45;
+
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+
+    &:hover {
+        color: #fff;
+    }
+}

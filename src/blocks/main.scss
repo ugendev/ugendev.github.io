@@ -1,0 +1,37 @@
+@import "libs/bootstrap-reboot.min";
+@import "libs/fonts";
+
+* {
+    font-family: "Century Gothic";
+    font-weight: 400;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 1140px;   
+    margin: 0 auto;
+}
+
+// <---------------- Main section ----------------> 
+@import "header/header";
+@import "header/__menu/header__menu";
+@import "header/__menu-item/header__menu-item";
+
+@import "main/main";   
+@import "main/__button/main__button";
+@import "main/__offer/main__offer";
+@import "main/__offer-item/main__offer-item";
+@import "main/__offer-text/main__offer-text";
+@import "main/__offer-text/_green/main__offer-text_green";
+@import "main/__offer-text/_orange/main__offer-text_orange";
+@import "main/__offer-text/_purple/main__offer-text_purple";
+@import "main/__title/main__title";
+
+@import "button/button.scss";
+
+@import "logo/logo";
+// <---------------- Main section ----------------> 
