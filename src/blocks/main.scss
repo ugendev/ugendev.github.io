@@ -15,6 +15,12 @@ a:hover {
     width: 1140px;   
     margin: 0 auto;
 }
+// <---------------- Blocks ---------------->
+@import "button/button.scss";
+@import "logo/logo";
+@import "numeration/numeration";
+@import "title/title";
+// <---------------- Blocks ---------------->
 
 // <---------------- Main section ----------------> 
 @import "header/header";
@@ -30,8 +36,19 @@ a:hover {
 @import "main/__offer-text/_orange/main__offer-text_orange";
 @import "main/__offer-text/_purple/main__offer-text_purple";
 @import "main/__title/main__title";
-
-@import "button/button.scss";
-
-@import "logo/logo";
 // <---------------- Main section ----------------> 
+
+// <---------------- About us section ----------------> 
+@import "about-us/about-us.scss";
+@import "about-us/__img/about-us__img";
+@import "about-us/__container/about-us__container.scss";
+@import "about-us/__content/about-us__content.scss";
+@import "about-us/__descr/about-us__descr.scss";
+@import "about-us/__text/about-us__text.scss";
+@import "about-us/__color-stripes/about-us__color-stripes.scss";
+@import "about-us/__color-stripe/about-us__color-stripe.scss";
+@import "about-us/__color-stripe/_green/about-us__color-stripe_green.scss";
+@import "about-us/__color-stripe/_orange/about-us__color-stripe_orange.scss";
+@import "about-us/__color-stripe/_purple/about-us__color-stripe_purple.scss";
+@import "about-us/__color-stripe/_yellow/about-us__color-stripe_yellow.scss";
+// <---------------- About us section ----------------> 
