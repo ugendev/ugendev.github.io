@@ -19,7 +19,17 @@ a:hover {
 @import "button/button.scss";
 @import "logo/logo";
 @import "numeration/numeration";
+
 @import "title/title";
+@import "title/_off-center/title_off-center";
+
+@import "subtitle/subtitle";
+
+@import "card/card.scss";
+@import "card/_orange/card_orange.scss";
+@import "card/_green/card_green.scss";
+@import "card/_purple/card_purple.scss";
+@import "card/_yellow/card_yellow.scss";
 // <---------------- Blocks ---------------->
 
 // <---------------- Main section ----------------> 
@@ -29,12 +39,15 @@ a:hover {
 
 @import "main/main";   
 @import "main/__button/main__button";
+
 @import "main/__offer/main__offer";
 @import "main/__offer-item/main__offer-item";
+
 @import "main/__offer-text/main__offer-text";
 @import "main/__offer-text/_green/main__offer-text_green";
 @import "main/__offer-text/_orange/main__offer-text_orange";
 @import "main/__offer-text/_purple/main__offer-text_purple";
+
 @import "main/__title/main__title";
 // <---------------- Main section ----------------> 
 
@@ -43,12 +56,17 @@ a:hover {
 @import "about-us/__img/about-us__img";
 @import "about-us/__container/about-us__container.scss";
 @import "about-us/__content/about-us__content.scss";
-@import "about-us/__descr/about-us__descr.scss";
+@import "about-us/__numeration/about-us__numeration.scss";
 @import "about-us/__text/about-us__text.scss";
-@import "about-us/__color-stripes/about-us__color-stripes.scss";
-@import "about-us/__color-stripe/about-us__color-stripe.scss";
-@import "about-us/__color-stripe/_green/about-us__color-stripe_green.scss";
-@import "about-us/__color-stripe/_orange/about-us__color-stripe_orange.scss";
-@import "about-us/__color-stripe/_purple/about-us__color-stripe_purple.scss";
-@import "about-us/__color-stripe/_yellow/about-us__color-stripe_yellow.scss";
 // <---------------- About us section ----------------> 
+
+// <---------------- Our Focus section ----------------> 
+@import "our-focus/our-focus";
+@import "our-focus/__numeration/our-focus__numeration";
+@import "our-focus/__cards/our-focus__cards";
+@import "our-focus/__card-icon/our-focus__card-icon";
+@import "our-focus/__card-title/our-focus__card-title";
+@import "our-focus/__card-title/_mt-23-px/our-focus__card-title_mt-23-px";
+@import "our-focus/__card-title/_mt-29-px/our-focus__card-title_mt-29-px";
+@import "our-focus/__card-text/our-focus__card-text";
+// <---------------- Our Focus section ----------------> 
