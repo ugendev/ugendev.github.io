@@ -1,0 +1,47 @@
+.portfolio__item {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    position: relative;
+
+    & div::after {
+        content: "";
+        background-color: rgba(0, 0, 0, 0);
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 82%;
+        width: 100%;
+        transition: background-color .5s;
+    }
+
+    &:hover { 
+        div::after {
+            background-color: rgba(0, 0, 0, 0.6);
+            z-index: 0;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 41%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: block;
+            width: 61px;
+            height: 61px;
+            border: 3px solid #fff;
+            border-radius: 100%;
+        }
+
+        &::before {
+            content: '+';
+            font-size: 60px;
+            font-family: Merriweather;
+            color: #fff;
+            position: absolute;
+            top: 41%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+        }
+    }
+}

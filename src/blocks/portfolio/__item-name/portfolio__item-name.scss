@@ -1,0 +1,16 @@
+.portfolio__item-name {
+    background: #fff Linear-gradient(
+        to right, 
+        #fc5f45 0,#fc5f45 24.99%,
+        #38c695 25%,#38c695 49.99%,
+        #b27cf5 50%,#b27cf5 74.99%,
+        #feb960 75%,#feb960 100%) 
+        no-repeat center bottom / 100% 3px;
+    min-height: 64px;
+    padding-top: 20px;
+    text-align: center;
+    color: #313131;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+}

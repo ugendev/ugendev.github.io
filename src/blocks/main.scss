@@ -62,7 +62,6 @@ a:hover {
 
 // <---------------- Our Focus section ----------------> 
 @import "our-focus/our-focus";
-@import "our-focus/__numeration/our-focus__numeration";
 @import "our-focus/__cards/our-focus__cards";
 @import "our-focus/__card-icon/our-focus__card-icon";
 @import "our-focus/__card-title/our-focus__card-title";
@@ -70,3 +69,20 @@ a:hover {
 @import "our-focus/__card-title/_mt-29-px/our-focus__card-title_mt-29-px";
 @import "our-focus/__card-text/our-focus__card-text";
 // <---------------- Our Focus section ----------------> 
+
+// <---------------- Explore our awesomeness ----------------> 
+@import "awesomeness/awesomeness.scss";
+@import "awesomeness/__content/awesomeness__content.scss";
+@import "awesomeness/__title/awesomeness__title.scss";
+@import "awesomeness/__icon/awesomeness__icon.scss";
+@import "awesomeness/__inscription/awesomeness__inscription.scss";
+@import "awesomeness/__video/awesomeness__video.scss";
+// <---------------- Explore our awesomeness ----------------> 
+
+// <---------------- Portfolio ----------------> 
+@import "portfolio/portfolio";
+@import "portfolio/__items/portfolio__items";
+@import "portfolio/__item/portfolio__item";
+@import "portfolio/__item-name/portfolio__item-name";
+@import "portfolio/__img/portfolio__img";
+// <---------------- Portfolio ----------------> 

@@ -4,4 +4,12 @@
     font-family: "Poppins";
     font-weight: 900;
     line-height: 220px;
+
+    &-position {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -1; 
+    }
 }
