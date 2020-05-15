@@ -26,10 +26,11 @@ a:hover {
 @import "subtitle/subtitle";
 
 @import "card/card.scss";
-@import "card/_orange/card_orange.scss";
+@import "card/_red/card_red.scss";
 @import "card/_green/card_green.scss";
 @import "card/_purple/card_purple.scss";
-@import "card/_yellow/card_yellow.scss";
+@import "card/_orange/card_orange.scss";
+@import "card/_personal/card_personal.scss";
 // <---------------- Blocks ---------------->
 
 // <---------------- Main section ----------------> 
@@ -64,9 +65,11 @@ a:hover {
 @import "our-focus/our-focus";
 @import "our-focus/__cards/our-focus__cards";
 @import "our-focus/__card-icon/our-focus__card-icon";
+
 @import "our-focus/__card-title/our-focus__card-title";
 @import "our-focus/__card-title/_mt-23-px/our-focus__card-title_mt-23-px";
 @import "our-focus/__card-title/_mt-29-px/our-focus__card-title_mt-29-px";
+
 @import "our-focus/__card-text/our-focus__card-text";
 // <---------------- Our Focus section ----------------> 
 
@@ -85,4 +88,18 @@ a:hover {
 @import "portfolio/__item/portfolio__item";
 @import "portfolio/__item-name/portfolio__item-name";
 @import "portfolio/__img/portfolio__img";
-// <---------------- Portfolio ----------------> 
+// <---------------- Portfolio ---------------->
+
+// <---------------- Our team ---------------->
+@import "our-team/our-team";
+@import "our-team/__cards/our-team__cards";
+@import "our-team/__img/our-team__img";
+
+@import "our-team/__name/our-team__name";
+@import "our-team/__name/_red/our-team__name_red";
+@import "our-team/__name/_green/our-team__name_green";
+@import "our-team/__name/_purple/our-team__name_purple";
+@import "our-team/__name/_orange/our-team__name_orange";
+
+@import "our-team/__desc/our-team__desc";
+// <---------------- Out team ---------------->
