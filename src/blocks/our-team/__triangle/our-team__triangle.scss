@@ -1,0 +1,11 @@
+.our-team__triangle {
+    box-shadow: -7px -7px 10px -6px rgba(0,0,0,.15);
+    position: relative;
+    top: 28px;
+    left: 115px;    
+    background-color: #fff;
+    width: 55px;
+    height: 55px;
+    transform: rotateZ(50.5deg) skewX(10deg);
+    transition: left 1.5s ease;
+}
