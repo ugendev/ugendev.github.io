@@ -15,6 +15,7 @@ a:hover {
     width: 1140px;   
     margin: 0 auto;
 }
+
 // <---------------- Blocks ---------------->
 @import "button/button.scss";
 @import "logo/logo";
@@ -106,11 +107,34 @@ a:hover {
 @import "our-team/__triangle/our-team__triangle";
 @import "our-team/__block/our-team__block";
 @import "our-team/__comment-title/our-team__comment-title";
+
 @import "our-team/__message-content/our-team__message-content";
 @import "our-team/__message-text/our-team__message-text";
 @import "our-team/__message-social/our-team__message-social";
+
 @import "our-team/__divider/our-team__divider";
+
 @import "our-team/__social-net/our-team__social-net";
 @import "our-team/__social-nets/our-team__social-nets";
 @import "our-team/__social-net-name/our-team__social-net-name";
 // <---------------- Out team ---------------->
+
+// <---------------- Stats ---------------->
+@import "stats/stats";
+@import "stats/__items/stats__items";
+@import "stats/__item/stats__item";
+@import "stats/__name/stats__name";
+@import "stats/__number/stats__number";
+
+@import "stats/__circle/stats__circle";
+@import "stats/__circle/_red/stats__circle_red";
+@import "stats/__circle/_green/stats__circle_green";
+@import "stats/__circle/_purple/stats__circle_purple";
+@import "stats/__circle/_orange/stats__circle_orange";
+
+@import "stats/__dot/stats__dot";
+@import "stats/__dot/_red/stats__dot_red";
+@import "stats/__dot/_green/stats__dot_green";
+@import "stats/__dot/_purple/stats__dot_purple";
+@import "stats/__dot/_orange/stats__dot_orange";
+// <---------------- Stats ---------------->
