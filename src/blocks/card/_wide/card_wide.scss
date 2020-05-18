@@ -1,0 +1,11 @@
+.card_wide {
+    width: 458px;
+    height: 300px;
+    min-height: unset;
+    padding: 25px 60px 0px 25px;
+    background-color: #fff;
+
+    &:nth-child(4), &:nth-child(5), &:nth-child(8) {
+        // margin-top:
+    }
+}

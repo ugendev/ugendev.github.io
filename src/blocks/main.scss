@@ -19,7 +19,10 @@ a:hover {
 // <---------------- Blocks ---------------->
 @import "button/button.scss";
 @import "logo/logo";
+
 @import "numeration/numeration";
+@import "numeration/_positioned/numeration_positioned";
+@import "numeration/_angular/numeration_angular";
 
 @import "title/title";
 @import "title/_off-center/title_off-center";
@@ -27,11 +30,15 @@ a:hover {
 @import "subtitle/subtitle";
 
 @import "card/card.scss";
+
 @import "card/_red/card_red.scss";
 @import "card/_green/card_green.scss";
 @import "card/_purple/card_purple.scss";
 @import "card/_orange/card_orange.scss";
+
 @import "card/_personal/card_personal.scss";
+@import "card/_wide/card_wide.scss";
+@import "card/_empty/card_empty.scss";
 // <---------------- Blocks ---------------->
 
 // <---------------- Main section ----------------> 
@@ -138,3 +145,13 @@ a:hover {
 @import "stats/__dot/_purple/stats__dot_purple";
 @import "stats/__dot/_orange/stats__dot_orange";
 // <---------------- Stats ---------------->
+
+// <---------------- Work Stepts ---------------->
+@import "work-steps/work-steps";
+@import "work-steps/__cards/work-steps__cards";
+@import "work-steps/__numeration/work-steps__numeration";
+@import "work-steps/__line/work-steps__line";
+@import "work-steps/__card-title/work-steps__card-title";
+@import "work-steps/__card-text/work-steps__card-text";
+@import "work-steps/__content/work-steps__content";
+// <---------------- Work Stepts ---------------->
