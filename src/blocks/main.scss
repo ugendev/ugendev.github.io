@@ -17,7 +17,12 @@ a:hover {
 }
 
 // <---------------- Blocks ---------------->
-@import "button/button.scss";
+@import "button/button";
+@import "button/_red/button_red";
+@import "button/_green/button_green";
+@import "button/_purple/button_purple";
+@import "button/_no-bg/button_no-bg";
+
 @import "logo/logo";
 
 @import "numeration/numeration";
@@ -29,16 +34,17 @@ a:hover {
 
 @import "subtitle/subtitle";
 
-@import "card/card.scss";
+@import "card/card";
 
-@import "card/_red/card_red.scss";
-@import "card/_green/card_green.scss";
-@import "card/_purple/card_purple.scss";
-@import "card/_orange/card_orange.scss";
+@import "card/_red/card_red";
+@import "card/_green/card_green";
+@import "card/_purple/card_purple";
+@import "card/_orange/card_orange";
 
-@import "card/_personal/card_personal.scss";
-@import "card/_wide/card_wide.scss";
-@import "card/_empty/card_empty.scss";
+@import "card/_personal/card_personal";
+@import "card/_wide/card_wide";
+@import "card/_empty/card_empty";
+@import "card/_pricing/card_pricing";
 // <---------------- Blocks ---------------->
 
 // <---------------- Main section ----------------> 
@@ -61,12 +67,12 @@ a:hover {
 // <---------------- Main section ----------------> 
 
 // <---------------- About us section ----------------> 
-@import "about-us/about-us.scss";
+@import "about-us/about-us";
 @import "about-us/__img/about-us__img";
-@import "about-us/__container/about-us__container.scss";
-@import "about-us/__content/about-us__content.scss";
-@import "about-us/__numeration/about-us__numeration.scss";
-@import "about-us/__text/about-us__text.scss";
+@import "about-us/__container/about-us__container";
+@import "about-us/__content/about-us__content";
+@import "about-us/__numeration/about-us__numeration";
+@import "about-us/__text/about-us__text";
 // <---------------- About us section ----------------> 
 
 // <---------------- Our Focus section ----------------> 
@@ -83,11 +89,11 @@ a:hover {
 
 // <---------------- Explore our awesomeness ----------------> 
 @import "awesomeness/awesomeness.scss";
-@import "awesomeness/__content/awesomeness__content.scss";
-@import "awesomeness/__title/awesomeness__title.scss";
-@import "awesomeness/__icon/awesomeness__icon.scss";
-@import "awesomeness/__inscription/awesomeness__inscription.scss";
-@import "awesomeness/__video/awesomeness__video.scss";
+@import "awesomeness/__content/awesomeness__content";
+@import "awesomeness/__title/awesomeness__title";
+@import "awesomeness/__icon/awesomeness__icon";
+@import "awesomeness/__inscription/awesomeness__inscription";
+@import "awesomeness/__video/awesomeness__video";
 // <---------------- Explore our awesomeness ----------------> 
 
 // <---------------- Portfolio ----------------> 
@@ -155,3 +161,25 @@ a:hover {
 @import "work-steps/__card-text/work-steps__card-text";
 @import "work-steps/__content/work-steps__content";
 // <---------------- Work Stepts ---------------->
+
+// <---------------- Pricing ---------------->
+@import "pricing/pricing";
+@import "pricing/__bold-text/pricing__bold-text";
+@import "pricing/__card-title/pricing__card-title";
+@import "pricing/__cards/pricing__cards";
+
+@import "pricing/__circle/pricing__circle";
+@import "pricing/__circle/_border/pricing__circle_border_green";
+@import "pricing/__circle/_border/pricing__circle_border_purple";
+@import "pricing/__circle/_border/pricing__circle_border_red";
+
+@import "pricing/__item/pricing__item";
+@import "pricing/__list/pricing__list";
+
+@import "pricing/__price/pricing__price";
+@import "pricing/__price/_bg/pricing__price_bg_green";
+@import "pricing/__price/_bg/pricing__price_bg_purple";
+@import "pricing/__price/_bg/pricing__price_bg_red";
+
+@import "pricing/__button/pricing__button";
+// <---------------- Pricing ---------------->
