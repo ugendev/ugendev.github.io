@@ -1,0 +1,18 @@
+.testimonials__slider-dot_active {
+    border-color: #fc5f45;
+    
+    &::before {
+        content: "";
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: block;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        background-color: #fc5f45;
+    }
+}

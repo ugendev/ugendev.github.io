@@ -1,0 +1,24 @@
+.testimonials__item-content {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 62%;
+    height: 80%;
+    padding: 30px 50px 40px 70px;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    position: relative;
+    z-index: 0;
+
+    &::before {
+        content: '“';
+        font-family: "Merriweather";
+        font-weight: 700;
+        position: absolute;
+        top: 0;
+        left: 15px;
+        font-size: 338px;
+        color: rgba(224, 224, 224, .3);
+        line-height: 230px;
+        z-index: -1;
+    }
+}

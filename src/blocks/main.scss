@@ -28,11 +28,14 @@ a:hover {
 @import "numeration/numeration";
 @import "numeration/_positioned/numeration_positioned";
 @import "numeration/_angular/numeration_angular";
+@import "numeration/_bright/numeration_bright";
 
 @import "title/title";
 @import "title/_off-center/title_off-center";
+@import "title/_white/title_white";
 
 @import "subtitle/subtitle";
+@import "subtitle/_white/subtitle_white";
 
 @import "card/card";
 
@@ -183,3 +186,41 @@ a:hover {
 
 @import "pricing/__button/pricing__button";
 // <---------------- Pricing ---------------->
+
+// <---------------- Testimonials ---------------->
+@import "testimonials/testimonials";
+@import "testimonials/__container-hiding/testimonials__container-hiding";
+
+@import "testimonials/__item-author/testimonials__item-author";
+
+@import "testimonials/__item-content/testimonials__item-content";
+@import "testimonials/__item-content/_border/testimonials__item-content_border_red";
+@import "testimonials/__item-content/_border/testimonials__item-content_border_green";
+@import "testimonials/__item-content/_border/testimonials__item-content_border_purple";
+@import "testimonials/__item-content/_border/testimonials__item-content_border_orange";
+
+@import "testimonials/__item-img/testimonials__item-img";
+@import "testimonials/__item-sign/testimonials__item-sign";
+@import "testimonials/__item-text/testimonials__item-text";
+
+@import "testimonials/__red-text/testimonials__red-text";
+
+@import "testimonials/__slider-dot/testimonials__slider-dot";
+@import "testimonials/__slider-dot/_active/testimonials__slider-dot_active";
+
+@import "testimonials/__slider-dots/testimonials__slider-dots";
+@import "testimonials/__slider-item/testimonials__slider-item";
+@import "testimonials/__slider/testimonials__slider";
+// <---------------- Testimonials ---------------->\
+
+// <---------------- Why Select Us ---------------->
+@import "advantages/advantages";
+@import "advantages/__content/advantages__content";
+@import "advantages/__item-header/advantages__item-header";
+@import "advantages/__item-icon/advantages__item-icon";
+@import "advantages/__item-text/advantages__item-text";
+@import "advantages/__item-title/advantages__item-title";
+@import "advantages/__item/advantages__item";
+@import "advantages/__offer-text/advantages__offer-text";
+@import "advantages/__offer/advantages__offer";
+// <---------------- Why Select Us ---------------->
