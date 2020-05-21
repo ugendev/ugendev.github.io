@@ -6,9 +6,9 @@
     font-weight: 400;
 }
 
-a:hover {
+a:hover, a {
     text-decoration: none;
-    color: inherit;
+    color: unset;
 }
 
 .container {
@@ -48,6 +48,9 @@ a:hover {
 @import "card/_wide/card_wide";
 @import "card/_empty/card_empty";
 @import "card/_pricing/card_pricing";
+
+@import "card/_type/card_type_post";
+@import "card/_type/card_type_post_expanded";
 // <---------------- Blocks ---------------->
 
 // <---------------- Main section ----------------> 
@@ -224,3 +227,17 @@ a:hover {
 @import "advantages/__offer-text/advantages__offer-text";
 @import "advantages/__offer/advantages__offer";
 // <---------------- Why Select Us ---------------->
+
+// <---------------- Blog ---------------->
+@import "blog/__post-author/blog__post-author";
+@import "blog/__post-date/blog__post-date";
+@import "blog/__post-details/blog__post-details";
+@import "blog/__post-img/blog__post-img";
+@import "blog/__post-link/blog__post-link";
+@import "blog/__post-quotes/blog__post-quotes";
+@import "blog/__post-text/blog__post-text";
+@import "blog/__post-title/blog__posts-title";
+@import "blog/__posts/blog__posts";
+@import "blog/__post-content/blog__post-content";
+@import "blog/blog";
+// <---------------- Blog ---------------->
