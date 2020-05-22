@@ -18,12 +18,16 @@ a:hover, a {
 
 // <---------------- Blocks ---------------->
 @import "button/button";
+
 @import "button/_red/button_red";
 @import "button/_green/button_green";
 @import "button/_purple/button_purple";
 @import "button/_no-bg/button_no-bg";
 
+@import "button/_subscribe/button_subscribe";
+
 @import "logo/logo";
+@import "logo/_footer/logo_footer";
 
 @import "numeration/numeration";
 @import "numeration/_positioned/numeration_positioned";
@@ -241,3 +245,36 @@ a:hover, a {
 @import "blog/__post-content/blog__post-content";
 @import "blog/blog";
 // <---------------- Blog ---------------->
+
+// <---------------- Subscription ---------------->
+@import "subscription/__form/subscription__form";
+@import "subscription/__input/subscription__input";
+@import "subscription/__title/subscription__title";
+@import "subscription/__form/subscription__form";
+@import "subscription/subscription";
+// <---------------- Subscription ---------------->
+
+// <---------------- Contact & Footer---------------->
+@import "contact/__form/contact__form";
+@import "contact/__message/contact__message";
+@import "contact/__button/contact__button";
+
+@import "contact/__field/contact__field";
+@import "contact/__field/_big/contact__field_big";
+
+@import "contact/contact";
+
+// Footer
+
+@import "footer/__address/footer__address";
+@import "footer/__icon/footer__icon";
+@import "footer/__links/footer__links";
+
+@import "footer/__item-title/footer__item-title";
+@import "footer/__item-title/_color/footer__item-title_color_green";
+@import "footer/__item-title/_color/footer__item-title_color_purple";
+@import "footer/__item-title/_color/footer__item-title_color_orange";
+
+@import "footer/__item/footer__item";
+@import "footer/footer";
+// <---------------- Contact & Footer ---------------->
