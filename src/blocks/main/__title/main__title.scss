@@ -3,6 +3,17 @@
     font-family: "Merriweather";
     font-size: 60px;
     font-weight: 400;
-    margin-top: 175px;
     text-align: center;
+    transform: scale(0);
+    animation: main__title-animation 1s ease .5s forwards;
+}
+
+@keyframes main__title-animation {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
 }

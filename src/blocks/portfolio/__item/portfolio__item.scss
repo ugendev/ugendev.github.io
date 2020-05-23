@@ -1,20 +1,24 @@
 .portfolio__item {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     position: relative;
+    width: 30%;
+    transition: transform 1s ease;
 
-    & div::after {
+    & div:not([class])::after {
         content: "";
         background-color: rgba(0, 0, 0, 0);
         position: absolute;
         top: 0;
         left: 0;
-        height: 82%;
+        height: 100%;
         width: 100%;
         transition: background-color .5s;
     }
 
     &:hover { 
-        div::after {
+        transform: scale(1.1);
+        
+        div:not([class])::after {
             background-color: rgba(0, 0, 0, 0.6);
             z-index: 0;
         }

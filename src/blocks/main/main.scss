@@ -1,4 +1,5 @@
 .main {
     background: url("../img/main/main-bg.jpg") top (center/cover) no-repeat;
-    height: 100vh;
+    min-height: 100vh;
+    padding-top: 250px;
 }

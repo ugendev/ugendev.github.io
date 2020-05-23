@@ -1,3 +1,15 @@
 .main__button {
     margin: 150px auto 0 auto;
+    opacity: 0;
+    animation: main__button-animation 1s ease 1s forwards;
+}
+
+@keyframes main__button-animation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
