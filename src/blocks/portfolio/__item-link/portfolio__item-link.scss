@@ -1,0 +1,31 @@
+.portfolio__item-link {
+    color: #fff;
+    font-weight: 700;
+
+    &:hover {
+        color: #fff;
+        animation: portfolio__item-link-animation 2s linear infinite;
+    }
+}
+
+@keyframes portfolio__item-link-animation {
+    from {
+        transform: translateX(0);
+    }
+
+    10% {
+        transform: translateX(10%);
+    }
+
+    20% {
+        transform: translateX(0);
+    }
+
+    30% {
+        transform: translateX(10%);
+    }
+
+    40%, 100% {
+        transform: translateX(0);
+    }
+}

@@ -112,8 +112,17 @@ a:hover, a {
 @import "portfolio/portfolio";
 @import "portfolio/__items/portfolio__items";
 @import "portfolio/__item/portfolio__item";
-@import "portfolio/__item-name/portfolio__item-name";
+
+@import "portfolio/__item-front-side/portfolio__front-side";
 @import "portfolio/__img/portfolio__img";
+@import "portfolio/__item-name/portfolio__item-name";
+
+@import "portfolio/__back-side/portfolio__back-side";
+@import "portfolio/__item-name/_white/portfolio__item-name_white";
+@import "portfolio/__divider/portfolio__divider";
+@import "portfolio/__item-desc/portfolio__item-desc";
+@import "portfolio/__item-link/portfolio__item-link";
+@import "portfolio/__back/portfolio__back";
 // <---------------- Portfolio ---------------->
 
 // <---------------- Our team ---------------->

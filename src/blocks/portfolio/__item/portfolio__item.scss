@@ -2,50 +2,24 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     position: relative;
     width: 30%;
-    transition: transform 1s ease;
+    max-height: 338px;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+}
 
-    & div:not([class])::after {
-        content: "";
-        background-color: rgba(0, 0, 0, 0);
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        transition: background-color .5s;
+.test {
+    .portfolio__front-side {
+        transform: perspective(1000px) rotateY(-90deg);
     }
 
-    &:hover { 
-        transform: scale(1.1);
-        
-        div:not([class])::after {
-            background-color: rgba(0, 0, 0, 0.6);
-            z-index: 0;
-        }
-
-        &::after {
-            content: "";
-            position: absolute;
-            top: 41%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            display: block;
-            width: 61px;
-            height: 61px;
-            border: 3px solid #fff;
-            border-radius: 100%;
-        }
-
-        &::before {
-            content: '+';
-            font-size: 60px;
-            font-family: Merriweather;
-            color: #fff;
-            position: absolute;
-            top: 41%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 1;
-        }
+    .portfolio__back-side {
+        transform: perspective(1000px) rotateY(0deg);
     }
+
+    // .portfolio__item-name:not([class="portfolio__item-name_white"]) {
+    //     transform: translateY(100%);
+    // }
 }

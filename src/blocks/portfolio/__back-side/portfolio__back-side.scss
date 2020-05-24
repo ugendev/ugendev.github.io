@@ -1,0 +1,14 @@
+.portfolio__back-side {
+    position: absolute;
+    height: 81%;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    background-color: rgba(252, 95, 69, .8);
+    padding: 5% 0;
+    transform: rotateY(90deg);
+    transition: transform .3s linear .3s;
+}
