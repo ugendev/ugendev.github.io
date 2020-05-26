@@ -1,4 +1,8 @@
 .button_red {
     color: #fc5f45;
     border-color: #fc5f45;
+
+    &:hover {
+        background-color: #fc5f45;
+    }
 }

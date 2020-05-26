@@ -1,0 +1,20 @@
+.stats__icon {
+    transition: transform 1s ;
+    &:hover {
+        animation: stats__icon-animation .8s infinite;
+    }   
+}
+
+@keyframes stats__icon-animation {
+    form {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}

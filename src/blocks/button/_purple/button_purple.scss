@@ -1,4 +1,8 @@
 .button_purple {
     color: #b27cf5;
     border-color: #b27cf5;
+
+    &:hover {
+        background-color: #b27cf5;
+    }
 }

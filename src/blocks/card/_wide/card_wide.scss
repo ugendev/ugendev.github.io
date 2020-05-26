@@ -5,7 +5,22 @@
     padding: 25px 60px 0px 25px;
     background-color: #fff;
 
-    &:nth-child(4), &:nth-child(5), &:nth-child(8) {
-        // margin-top:
+    &:hover {
+        animation: card_wide-animation .2s linear;
     }
+}
+
+@keyframes card_wide-animation {
+    from {
+        transform: translate(0) rotateZ(0);
+    }
+
+    50% {
+        transform: translateX(5px) rotateZ(2deg);
+    }
+
+    to {
+        transform: initial;
+    }
+
 }

@@ -3,4 +3,9 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    transition: transform .5s ease-out;
+
+    &:hover {
+        transform: translateX(10px);
+    }
 }

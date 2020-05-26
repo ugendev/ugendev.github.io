@@ -1,4 +1,34 @@
 .blog__post-link {
     font-weight: 700;
     display: inline-flex;
+    transition: text-shadow 1s;
+
+    &:hover {
+        text-shadow: 0 0 5px;
+        & > span {
+            animation: blog__post-quotes-animtaion 1.5s linear infinite;
+        }
+    }
+}
+
+@keyframes blog__post-quotes-animtaion {
+    from {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(10px);
+    }
+
+    50% {
+        transform: translateX(0);
+    }
+
+    75% {
+        transform: translateX(10px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
 }
