@@ -10,16 +10,26 @@
     overflow: hidden;
 }
 
-.test {
+.portfolio__item-rotate {
     .portfolio__front-side {
+        transition: transform .3s linear;
         transform: perspective(1000px) rotateY(-90deg);
     }
 
     .portfolio__back-side {
+        transition: transform .3s linear .3s;
         transform: perspective(1000px) rotateY(0deg);
     }
+}
 
-    // .portfolio__item-name:not([class="portfolio__item-name_white"]) {
-    //     transform: translateY(100%);
-    // }
+.portfolio__item-rotate-back {
+    .portfolio__front-side {
+        transition: transform .3s linear .3s;
+        transform: perspective(1000px) rotateY(0);
+    }
+
+    .portfolio__back-side {
+        transition: transform .3s linear;
+        transform: perspective(1000px) rotateY(90deg);
+    }
 }

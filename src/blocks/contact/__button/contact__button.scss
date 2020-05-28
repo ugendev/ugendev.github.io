@@ -1,3 +1,8 @@
 .contact__button {
     margin: 20px auto 0 auto; 
+    transition: box-shadow .5s;
+
+    &:hover {
+        box-shadow: 0 0 20px rgb(252, 95, 69);
+    }
 }
