@@ -1,18 +1,47 @@
 .testimonials__slider-dot_active {
-    border-color: #fc5f45;
-    
-    &::before {
-        content: "";
-        position: absolute;
-        margin: auto;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        display: block;
+    & div {
         width: 10px;
         height: 10px;
         border-radius: 100%;
-        background-color: #fc5f45;
+    }
+
+    &:nth-child(1) {
+        div {
+            background-color: #fc5f45;
+        }
+
+        & {
+            border-color: #fc5f45;
+        }
+    }
+
+    &:nth-child(2) {
+        div {
+            background-color: #38c695;
+        }
+        
+        & {
+            border-color: #38c695;
+        }
+    }
+
+    &:nth-child(3) {
+        div {
+            background-color: #b27cf5;
+        }
+        
+        & {
+            border-color: #b27cf5;
+        }
+    }
+
+    &:nth-child(4) {
+        div {
+            background-color: #feb960;
+        }
+        
+        & {
+            border-color: #feb960;
+        }
     }
 }
