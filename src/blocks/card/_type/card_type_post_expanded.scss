@@ -1,36 +1,8 @@
 .card_type_post-expanded {
     height: 100%;
 
-    img {
-        height: 70%;    
+    .blog__post-img {
         display: block;
-    }
-}
-
-.test {
-    animation: test2 2s cubic-bezier(0.7, -0.3, 0.32, 0.58) forwards;
-
-    img {
-        animation: test 2.4s cubic-bezier(0.7, -0.3, 0.32, 0.58) forwards;
-    }
-}
-
-@keyframes test {
-    from {
         height: 70%;
-    }
-
-    to {
-        height: 0%;
-    }
-}
-
-@keyframes test2 {
-    from {
-        height: 100%;
-    }
-
-    to {
-        height: 30%;
     }
 }

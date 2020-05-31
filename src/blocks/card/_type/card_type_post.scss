@@ -1,7 +1,33 @@
 .card_type_post {
+    overflow: hidden;
     height: 30%;
     min-width: 48.685%;
     padding: 0;
     min-height: unset;
     cursor: pointer;
+    transition: height 1s cubic-bezier(0.7, -0.3, 0.32, 0.58);
+
+    &:nth-child(1) {
+        &>div {
+            background-image: url("../img/blog/spring.jpg");
+        }
+    }
+
+    &:nth-child(2) {
+        &>div {
+            background-image: url("../img/blog/design.jpg");
+        }
+    }
+
+    &:nth-child(3) {
+        &>div {
+            background-image: url("../img/blog/blind.jpg");
+        }
+    }
+
+    &:nth-child(4) {
+        &>div {
+            background-image: url("../img/blog/wb-old-photo.jpg");
+        }
+    }
 }

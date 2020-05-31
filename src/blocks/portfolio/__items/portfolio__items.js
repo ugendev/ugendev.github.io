@@ -1,5 +1,6 @@
 function rotateCards() {
-    let cardsBlock = document.querySelector(".portfolio__items"),
+    const
+        cardsBlock = document.querySelector(".portfolio__items"),
         cards      = cardsBlock.querySelectorAll(".portfolio__item"),
         cardsCount = cards.length,
 
@@ -7,7 +8,8 @@ function rotateCards() {
     
     cardsBlock.addEventListener("click", function(event) {
 
-        let target      = event.target,
+        let 
+            target      = event.target,
             targetClass = target.classList.value;
 
         if (targetClass == "portfolio__front-side") {

@@ -1,21 +1,20 @@
-const gulp          = require("gulp");
-const browserSync   = require("browser-sync");
-const sass 			= require("gulp-sass");
-const rename		= require("gulp-rename");
-const autoprefixer  = require("gulp-autoprefixer");
-const cleanCSS 		= require("gulp-clean-css");
-const htmlmin		= require("gulp-htmlmin");
-const image 		= require("gulp-image");
-const webpack 		= require("webpack");
-const webpackStream = require("webpack-stream");
-const webpackConfig = require("./webpack.config.js");
+const 
+	gulp          	= require("gulp"),
+	browserSync   	= require("browser-sync"),
+	sass 			= require("gulp-sass"),
+	rename			= require("gulp-rename"),
+	autoprefixer  	= require("gulp-autoprefixer"),
+	cleanCSS 		= require("gulp-clean-css"),
+	htmlmin			= require("gulp-htmlmin"),
+	image 			= require("gulp-image"),
+	webpack 	  	= require("webpack"),
+	webpackStream 	= require("webpack-stream"),
+	webpackConfig 	= require("./webpack.config.js");
 
 
 gulp.task("server", function() {
 	browserSync.init({
-		server: {
-			baseDir: "dist"
-		}
+		proxy: "localhost:8080/alexis/dist/index.html",
 	});
 });
 

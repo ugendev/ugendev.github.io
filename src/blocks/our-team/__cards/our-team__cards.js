@@ -1,12 +1,14 @@
 function switchContent() {
-    const cardsBlock = document.querySelector(".our-team__cards"),
-          cards      = cardsBlock.children,
+    const 
+        cardsBlock = document.querySelector(".our-team__cards"),
+        cards      = cardsBlock.children,
 
-          pointer    = document.querySelector(".our-team__triangle"),
+        pointer    = document.querySelector(".our-team__triangle"),
 
-          contents   = document.querySelectorAll(".our-team__block");
+        contents   = document.querySelectorAll(".our-team__block");
 
-    let current      = 0;
+    let 
+        current      = 0;
 
     cardsBlock.addEventListener("click", function(event) {
         const target = event.target;

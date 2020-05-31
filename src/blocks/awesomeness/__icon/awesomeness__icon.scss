@@ -1,4 +1,19 @@
 .awesomeness__icon {
     display: block;
     margin: 30px auto 0 auto;
+    cursor: pointer;
+    
+    &:hover {
+        animation: test .5s linear infinite alternate-reverse;
+    }
+}
+
+@keyframes test {
+    from {
+        transform: scale(1.0);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }

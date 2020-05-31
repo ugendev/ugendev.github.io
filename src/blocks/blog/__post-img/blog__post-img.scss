@@ -1,4 +1,8 @@
 .blog__post-img {
-    display: none;
+    height: 0%;
     width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: height 1s cubic-bezier(0.7, -0.3, 0.32, 0.58);
 }

@@ -27,6 +27,8 @@ function slider() {
                 dot[current].classList.remove("testimonials__slider-dot_active");
                 dot[i].classList.add("testimonials__slider-dot_active");
                 current = i;
+                
+                return;
             }
         }
     });
